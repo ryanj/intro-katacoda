@@ -1,0 +1,31 @@
+{
+    "icon": "fa-redhat",
+    "title": "Playground (RHEL8-3)",
+    "description": "Testing RHEL8 images",
+    "pathwayTitle": "RHEL8",
+    "difficulty": "advanced",
+    "time": "60 minutes",
+    "backend": {
+        "imageid": "rhel8-3",
+        "port": 80
+    },
+    "environment": {
+        "showdashboard": true,
+        "uimessage1": "\u001b[32mWelcome to Red Hat Enterprise Linux 8\u001b[m\r\n",
+        "dashboard": "Container httpd",
+        "uilayout": "terminal-iframe"
+    },
+    "details": {
+        "steps": [{
+            "title": "RHEL Playground",
+            "text": "tips.md"
+        }],
+        "intro": {
+            "code": "set-env.sh",
+            "text": "intro.md"
+        },
+        "finish": {
+            "text": "finish.md"
+        }
+    }
+}
