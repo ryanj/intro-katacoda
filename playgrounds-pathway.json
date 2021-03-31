@@ -16,6 +16,11 @@
       "external_link": "https://learn.openshift.com/playgrounds/openshift46/",
       "course_id": "openshift46",
       "title": "OpenShift 4.6 Playground"
+    },
+    {
+      "external_link": "https://learn.openshift.com/playgrounds/rhel83/",
+      "course_id": "rhel83",
+      "title": "RHEL 8.3 Playground"
     }
   ]
 }
