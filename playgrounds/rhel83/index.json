@@ -1,13 +1,14 @@
 {
-    "icon": "fa-redhat",
+    "icon": "fa-openshift",
     "title": "Playground (RHEL8-3)",
     "description": "Testing RHEL8 images",
+    "automaticSystemUpdates": false,
     "pathwayTitle": "RHEL8",
     "difficulty": "advanced",
     "time": "60 minutes",
     "backend": {
         "imageid": "rhel8-3",
-        "port": 80
+        "port": 8443
     },
     "environment": {
         "showdashboard": true,
